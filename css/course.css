@@ -474,6 +474,7 @@ color:var(--bg-color);
 @media (max-width:900px) {
     .location-icon{
         display:block;
+        color:white;
     }
     .header-content{
         flex-direction:column;
@@ -485,6 +486,7 @@ color:var(--bg-color);
     }
     .icon-active{
         display:block;
+        color:white;
     }
     .icon-cancel{
         display:none;
@@ -494,7 +496,7 @@ color:var(--bg-color);
         top:100px;
         width:100vw;
         height:350px;
-        background-color:var(--bg-color);
+        background-color:var(--main-bg);
         z-index:999;
        display:none;
 
